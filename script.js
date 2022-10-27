@@ -80,7 +80,7 @@ function turnArrows(date) {
   arrowSecond.style.transform = `rotate(${secondArrowDeg}deg)`;
 
   const minutesArrowDeg =
-    (360 / 60) * date.getMinutes() + (6 / 60) * date.getSeconds();
+    (360 / 60) * date.getMinutes() + (5 / 60) * date.getSeconds();
   arrowMinute.style.transform = `rotate(${minutesArrowDeg}deg)`;
 
   const hoursArrowDeg =
